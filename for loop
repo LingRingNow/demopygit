@@ -1,0 +1,9 @@
+num = 0
+
+while num < 100:
+    num+=1
+    if num % 2 != 0:
+        print("整除",num)
+        pass
+
+    print(num)
